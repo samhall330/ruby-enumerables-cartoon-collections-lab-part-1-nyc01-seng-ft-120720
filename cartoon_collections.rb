@@ -5,7 +5,7 @@ end
 def list_dwarves(array)
 count = 1
 array.each do |element|
-  puts count += ". #{element}"
+  p count.to_s + ". #{element}"
   count += 1
 end
 end
