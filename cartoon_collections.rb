@@ -8,3 +8,4 @@ array.each do |element|
   puts count += element
   count += 1
 end
+end
